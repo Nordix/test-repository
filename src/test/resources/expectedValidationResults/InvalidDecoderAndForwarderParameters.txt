@@ -1,0 +1,22 @@
+validation error(s) on parameters from "parameters/DistributionConfigParameters_InvalidDecoderAndForwarderParameters.json"
+"DistributionParameterGroup" INVALID, item has status INVALID
+  "receptionHandlerParameters" INVALID, item has status INVALID
+    "DummyReceptionHandler" INVALID, item has status INVALID
+      "ReceptionHandlerParameters" INVALID, item has status INVALID
+        "PluginHandlerParameters" INVALID, item has status INVALID
+          "policyDecoders" INVALID, item has status INVALID
+            "APEXDecoder" INVALID, item has status INVALID
+              "PolicyDecoderParameters" INVALID, item has status INVALID
+                item "decoderType" value "" INVALID, is blank
+                item "decoderClassName" value "org.onap.policy.distribution.main.testclasses.PolicyDecoderApexPdpa" INVALID, class is not in the classpath
+            "DROOLSDecoder" INVALID, item has status INVALID
+              "PolicyDecoderParameters" INVALID, item has status INVALID
+                item "decoderClassName" value "" INVALID, is blank
+          "policyForwarders" INVALID, item has status INVALID
+            "PAPStandaloneForwarder" INVALID, item has status INVALID
+              "PolicyForwarderParameters" INVALID, item has status INVALID
+                item "forwarderType" value "" INVALID, is blank
+                item "forwarderClassName" value "org.onap.policy.distribution.main.testclasses.PapStandalonePolicyForwarder" INVALID, class is not in the classpath
+            "PAPEngineForwarder" INVALID, item has status INVALID
+              "PolicyForwarderParameters" INVALID, item has status INVALID
+                item "forwarderClassName" value "" INVALID, is blank

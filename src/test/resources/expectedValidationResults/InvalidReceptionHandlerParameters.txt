@@ -1,0 +1,7 @@
+validation error(s) on parameters from "parameters/DistributionConfigParameters_InvalidReceptionHandlerParameters.json"
+"DistributionParameterGroup" INVALID, item has status INVALID
+  "receptionHandlerParameters" INVALID, item has status INVALID
+    "DummyReceptionHandler" INVALID, item has status INVALID
+      "ReceptionHandlerParameters" INVALID, item has status INVALID
+        item "receptionHandlerType" value "" INVALID, is blank
+        item "receptionHandlerClassName" value "org.onap.policy.distribution.main.testclasses.InvalidSdcReceptionHandler" INVALID, class is not in the classpath
